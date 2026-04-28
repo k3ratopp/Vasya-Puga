@@ -1,8 +1,4 @@
-git init
-git add .
-git commit -m "Initial commit: Random Task Generator"
-git remote add origin [URL репозитория]
-git push -u origin main
+# Файл с историей задач (содержит пользовательские данные)
 task_history.json
 
 # Байт-код Python
@@ -49,11 +45,6 @@ develop-eggs/
 *.bak
 *.swp
 
-# Файлы конфигурации (если есть)
-*.ini
-*.cfg
-!setup.cfg
-
 # Специфичные для Windows
 Thumbs.db
 ehthumbs.db
@@ -72,8 +63,6 @@ Desktop.ini
 .coverage
 .coverage.*
 htmlcov/
-.coverage
-.coverage.*
 coverage.xml
 *.cover
 .hypothesis/
