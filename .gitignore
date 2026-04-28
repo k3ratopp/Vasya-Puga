@@ -1,4 +1,8 @@
-# Файл с историей задач (содержит пользовательские данные)
+git init
+git add .
+git commit -m "Initial commit: Random Task Generator"
+git remote add origin [URL репозитория]
+git push -u origin main
 task_history.json
 
 # Байт-код Python
