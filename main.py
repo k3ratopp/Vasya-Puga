@@ -166,3 +166,9 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = TaskGenerator(root)
     root.mainloop()
+    git add .gitignore
+    git commit -m "Add .gitignore file"
+    git rm --cached task_history.json
+    git rm -r --cached __pycache__/
+    git commit -m "Remove tracked files that should be ignored"
+        git push origin main
